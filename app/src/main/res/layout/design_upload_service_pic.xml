@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appThemeColor_TXT_1"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar_include"
+        layout="@layout/design_toolbar_general" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.view.MTextView
+                android:id="@+id/uploadTitleTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="5dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textColor="#1C1C1C"
+                android:textSize="@dimen/txt_size_16"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:id="@+id/uploadImgArea"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="30dp"
+                android:background="#DDDDDD"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/camImgVIew"
+                    android:layout_width="250dp"
+                    android:layout_height="110dp"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/cam" />
+
+                <ImageView
+                    android:id="@+id/uploadImgVIew"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true" />
+
+
+            </LinearLayout>
+
+            <include
+                android:id="@+id/btn_type2"
+                layout="@layout/btn_type_2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/all_btn_height"
+                android:layout_margin="10dp" />
+
+
+            <com.view.MTextView
+                android:id="@+id/skipTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="Skip"
+                android:textColor="@color/appThemeColor_1"
+                android:textSize="@dimen/txt_size_20"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+        <com.view.MTextView
+            android:id="@+id/uploadStatusTxt"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:background="#444444"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/txt_size_16"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</LinearLayout>

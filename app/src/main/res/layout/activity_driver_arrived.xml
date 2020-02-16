@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DriverArrivedActivity">
+
+    <include
+        android:id="@+id/toolbar_include"
+        layout="@layout/design_toolbar_general" />
+
+    <include
+        android:id="@+id/toolbar_include"
+        layout="@layout/navigation_view" />
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <fragment
+            android:id="@+id/mapV2"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <include
+            android:id="@+id/btn_type2"
+            layout="@layout/btn_type_2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/all_btn_height"
+            android:layout_alignParentBottom="true"/>
+
+        <ImageView
+            android:id="@+id/emeTapImgView"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:tint="@color/pickup_req_later_btn"
+            android:src="@mipmap/ic_eme_alert"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="google_api_get_address_from_location_serverApi">AIzaSyCVsmOwMhajONIHuvkxojtyE1LxisbCO9o</string>
+    <string name="google_android_geo_api_key">AIzaSyAKlKi0-YB-hb8-L9BlR2huZ2x08_IFids</string>
+
+    <string name="app_name">App85Taxi Motorista</string>
+    <string name="defaultFont">fonts/roboto_light.ttf</string>
+    <string name="demo_text">Note:\nSince this is the demo version, please use below dummy credit/debit card for testing. The actual payment will not be deducted.\n\nCard Type: VISA\nCard Number: 41111111111111\nExpiry: 12/2018\nCVV: 123</string>
+    <string name="demo_mobile_help">Note: Please enter the OTP \"12345\" If you do not receive SMS/EMAIL on your registered number in next one minute.</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="robotomediumFont">fonts/roboto_medium.ttf</string>
+    <string name="robotolightFont">fonts/roboto_light.ttf</string>
+
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">Rws8n1TODXEy4B2fjyqrp0lAb</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">o6JpvDT9OoH34fsWQvLvNM3ElP0MqsKYOccM2DNY94FqtA4rVU</string>
+
+    <string name="html" translatable="false">
+        <![CDATA[
+        <html>
+            <head></head>
+            <body>%1$s</body>
+        </html>"
+        ]]>
+    </string>
+
+    <string name="html_rtl" translatable="false">
+        <![CDATA[
+        <html dir="rtl">
+            <head></head>
+            <body>%1$s</body>
+        </html>"
+        ]]>
+    </string>
+
+</resources>
